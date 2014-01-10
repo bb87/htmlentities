@@ -1,0 +1,11 @@
+{
+  "name"          : "htmlentities",
+  "description"   : "Encode and decode HTML entities with javascript",
+  "homepage"      : "https://github.com/alexduloz/htmlentities",
+  "keywords"      : ["utility", "type", "HTML", "entities", "HTML Entities", "utf8", "server", "client", "browser"],
+  "author"        : "Alex Duloz <alex@one-two-one-two-microphone-check.com>",
+  "repository"    : {"type": "git", "url": "git://github.com/alexduloz/htmlentities.git"},
+  "main"          : "htmlentities.js",
+  "version"       : "1.0.0",
+  "license"       : "MIT"
+}
