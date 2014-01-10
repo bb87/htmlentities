@@ -25,18 +25,6 @@ Returns the encoded version of `string`. If omitted, `encoding` defaults to `UTF
 
 Returns the decoded version of `string`. If omitted, `encoding` defaults to `UTF-8`.
 
-# Examples
-
-	var string = "I–t‘rn‰ti™nˆliz¾ti¿n";
-	var res = htmlentities.encode(string);
-	console.log(res);
-	// -> I&ntilde;t&euml;rn&acirc;ti&ocirc;n&agrave;liz&aelig;ti&oslash;n
-
-	var string = "I&ntilde;t&euml;rn&acirc;ti&ocirc;n&agrave;liz&aelig;ti&oslash;n";
-	var res = htmlentities.encode(string);
-	console.log(res);
-	// -> I–t‘rn‰ti™nˆliz¾ti¿n
-
 # Encodings
 
 The following encodings are supported:
